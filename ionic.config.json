@@ -1,0 +1,7 @@
+{
+  "name": "appGuarnieriStreet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
