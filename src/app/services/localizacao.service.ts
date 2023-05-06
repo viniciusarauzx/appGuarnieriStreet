@@ -6,7 +6,8 @@ export interface Localizacao {
   latitude: number,
   longitude: number,
   idusuario: number,
-  horario: Date
+  horario: Date,
+  nome: string
 }
 
 @Injectable({

@@ -21,10 +21,11 @@ export class HomePage implements OnInit {
           idusuario: 16,
           longitude: position.coords.longitude,
           latitude: position.coords.latitude,
-          horario: new Date()
+          horario: new Date(),
+          nome: "Vinicius Araújo"
         }).subscribe();
       })
-    }, 100);
+    }, 2000);
 
     // this.produtoService.getProdutos().subscribe(
     //   (produtos) => {
